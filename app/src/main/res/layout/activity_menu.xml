@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/buttonLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Lingkaran"
+        android:padding="0dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:background="#80e27e"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/buttonPersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi"
+        android:padding="0dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:background="#81c784"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/buttonPersegiPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi Panjang"
+        android:padding="0dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:background="#519657"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/buttonSegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Segitiga"
+        android:padding="0dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:background="#43a047"
+        android:textColor="#fff"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>
